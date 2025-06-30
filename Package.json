@@ -1,0 +1,11 @@
+{
+  "name": "heianclanv2",
+  "version": "1.0.0",
+  "main": "heianclanv2.js",
+  "scripts": {
+    "start": "node heianclanv2.js"
+  },
+  "dependencies": {
+    "@adiwajshing/baileys": "^4.4.0"
+  }
+}
