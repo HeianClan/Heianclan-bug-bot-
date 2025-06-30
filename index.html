@@ -1,61 +1,28 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>For Chioma, With Love</title>
-    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <title>HeianClanV2 Deployment</title>
     <style>
         body {
-            margin: 0;
-            padding: 0;
-            background: linear-gradient(to right, #ffdde1, #ee9ca7);
-            font-family: 'Great Vibes', cursive;
-            color: #fff;
+            background: #000;
+            color: #f00;
+            font-family: monospace;
             text-align: center;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            height: 100vh;
-            background-size: cover;
+            padding: 40px;
         }
-        h1 {
-            font-size: 4em;
-            margin-bottom: 0.5em;
-        }
-        .letter {
-            background: rgba(0, 0, 0, 0.5);
-            padding: 2em;
-            border-radius: 20px;
-            max-width: 700px;
-            margin: 0 auto;
-            font-size: 1.5em;
-            line-height: 1.6;
-        }
-        audio {
-            position: absolute;
-            bottom: 20px;
-            left: 50%;
-            transform: translateX(-50%);
+        input, button {
+            padding: 10px;
+            font-size: 16px;
+            margin: 8px;
         }
     </style>
 </head>
 <body>
-    <h1>For Chioma, With Love 💖</h1>
-<img src="heart.png" alt="Heart" width="150">
-    <div class="letter">
-        <p>My Dearest Chioma,</p>
-        <p>I don't know where to begin, because words will never be enough to describe what you mean to me. But I’ll try—because you deserve that, and more.</p>
-        <p>From the moment you came into my life, everything changed. You brought light where there was darkness, calm where there was chaos, and love where there was emptiness. Just hearing your name makes my heart feel warm.</p>
-        <p>You are not just beautiful, Chioma — you are extraordinary. The way you smile, the way you laugh, the way you care about everything and everyone — it's like magic. You’ve made me believe in something deeper, something real, something unbreakable.</p>
-        <p>I created this little gift to remind you that no matter where I am, or what time it is, <strong>you’re always in my heart</strong>. This page, this song, this message — it’s all for you.</p>
-        <p>Thank you for being mine. Thank you for being you.</p>
-        <p><strong>I love you, Chioma.</strong> Always and forever.</p>
-        <p>— Yours, completely.</p>
-    </div>
-    <audio controls autoplay loop>
-        <source src="romantic_music.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-    </audio>
+    <h1>𓃥𝐇𝐄𝐈𝐀𝐍ᶜˡᵃⁿ☄︎☄︎ 𝐕𝟐 𝐀𝐮𝐭𝐨-𝐃𝐞𝐩𝐥𝐨𝐲</h1>
+    <form method="POST" action="/start-bot">
+        <input name="phone" type="text" placeholder="Your WhatsApp number" required /><br/>
+        <input name="sessionId" type="text" placeholder="Enter a session ID" required /><br/>
+        <button type="submit">Start Bot</button>
+    </form>
 </body>
 </html>
